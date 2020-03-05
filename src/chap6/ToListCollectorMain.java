@@ -46,10 +46,9 @@ public class ToListCollectorMain {
   }
 
 
-
   public static Map<Boolean, List<Integer>> partitionPrimesWithCustomCollector(int n) {
     return IntStream.rangeClosed(2, n).boxed()
-          .collect(new PrimeNumbersCollector());
+        .collect(new PrimeNumbersCollector());
   }
 
   public static Map<Boolean, List<Integer>> partitionPrimes(int n) {
