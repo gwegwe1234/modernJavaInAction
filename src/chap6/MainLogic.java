@@ -2,8 +2,8 @@ package chap6;
 
 import static java.util.Arrays.asList;
 
-import chap4.Dinner;
-import chap4.Dish;
+import utils.Dinner;
+import utils.Dish;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;

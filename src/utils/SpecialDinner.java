@@ -1,6 +1,6 @@
-package chap5;
+package utils;
 
-import chap4.Dish;
+import utils.Dish;
 import java.util.Arrays;
 import java.util.List;
 

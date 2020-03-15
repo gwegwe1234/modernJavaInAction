@@ -1,7 +1,7 @@
 package chap5;
 
-import chap4.Dish;
-import chap4.Dish.Type;
+import utils.Dish;
+import utils.Dish.Type;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -9,6 +9,7 @@ import java.util.OptionalInt;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
+import utils.SpecialDinner;
 
 public class MainLogic {
 
